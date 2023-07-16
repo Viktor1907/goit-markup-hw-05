@@ -705,6 +705,33 @@ color: var(--accent-color);
     gap: 24px;
 }
 
+.subscribe-input {
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid var(--primary-bg-color);
+    border-radius: 4px;
+    color: var(--primary-bg-color);
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    transition: border var(--transition);
+}
+
+.subscribe-input:focus {
+    border: 1px solid var(--accent-color);
+    outline: none;
+}
+
+.subscribe-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--primary-bg-color);
+}
+
 /*  modal  */
 
 .backdrop {
