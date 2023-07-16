@@ -739,7 +739,7 @@ color: var(--accent-color);
     min-width: 165px;
     height: 40px;
     padding: 8px 24px;
-    background-color: var(--accent-color);
+    background-color: var(--footer-logo-color);
     color: var(--primary-bg-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
