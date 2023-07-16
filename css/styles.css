@@ -697,6 +697,14 @@ color: var(--accent-color);
 .sm-link:is(:hover, :focus) {
     background-color: var(--footer-hover);
 }
+
+/*  Subscribe  */
+
+.subscribe-form {
+    display: flex;
+    gap: 24px;
+}
+
 /*  modal  */
 
 .backdrop {
