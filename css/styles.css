@@ -753,6 +753,10 @@ color: var(--accent-color);
     transition: background-color var(--transition);
 }
 
+.subscribe-icon {
+    color: #ffffff;
+}
+
 .subscribe-btn:is(:hover, :focus) {
     background-color: var(--accent-color);
 }
