@@ -754,7 +754,7 @@ color: var(--accent-color);
 }
 
 .subscribe-icon {
-    color: #ffffff;
+    color: var(--primary-bg-color);
 }
 
 .subscribe-btn:is(:hover, :focus) {
