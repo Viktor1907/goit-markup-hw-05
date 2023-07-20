@@ -842,6 +842,13 @@ color: var(--accent-color);
     margin-bottom: 16px;
 }
 
+.modal-label {
+    margin-bottom: 8px;
+}
+
+
+
+
 .modal-imput {
     width: 100%;
     height: 58px;
