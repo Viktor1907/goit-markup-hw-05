@@ -846,7 +846,14 @@ color: var(--accent-color);
     margin-bottom: 8px;
 }
 
-
+.modal-label-user {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customers-logo);
+    display: block;
+    margin-bottom: 4px;
+}
 
 
 .modal-imput {
@@ -859,4 +866,11 @@ color: var(--accent-color);
     background-color: transparent;
 }
 
+.modal-imput{
+    color: var(var(--title-text-color, rgba(46, 47, 66, 0.40));
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 1.2; 
+    letter-spacing: 0.48px;
+}
 
