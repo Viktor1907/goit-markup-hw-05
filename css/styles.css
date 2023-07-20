@@ -885,5 +885,5 @@ color: var(--accent-color);
 }
 
 .modal-user-icon :focus {
-    fill: var(--footer-logo-color);
+    fill: #4D5AE5; 
 }
