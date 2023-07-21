@@ -838,7 +838,26 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 
+.modal-submit-btn {
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    color: var(--primary-bg-color);
+    background-color: var(--footer-logo-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color var(--transition);
+}
 
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+    background-color: var(--accent-color);
+}
 
 
 
