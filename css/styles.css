@@ -883,6 +883,32 @@ color: var(--accent-color);
     fill: var(--accent-color);
 }
 
+.new-checkbox {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    fill: transparent;
+    transition: background-color var(--transition), border var(--transition),
+    fill var(--transition);
+}
+
+.check-input:checked + .check-label .new-checkbox {
+    background-color: var(--footer-logo-color);
+    border: none;
+    fill: var(--middle-background);
+}
+
+.check-link {
+    color: var(--footer-logo-color);
+}
+
 
 
 
