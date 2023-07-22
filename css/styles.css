@@ -969,7 +969,7 @@ color: var(--accent-color);
 }
 
 .check-input:checked + .check-label .new-checkbox {
-    background-color: var(--accent-color);
+    background-color: var(--sectoin-bg-color);
     border: none;
     fill: var(--sectoin-bg-color);
 }
