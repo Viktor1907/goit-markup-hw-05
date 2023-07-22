@@ -945,11 +945,11 @@ color: var(--accent-color);
 }
 
 .input-field:focus {
-    border-color: #4D5AE5;
+    border-color: var(--footer-logo-color);
 }
 
 .input-field:focus + .user-info-icon {
-    fill: #4D5AE5; 
+    fill: var(--footer-logo-color); 
 }
 
 .new-checkbox {
@@ -975,5 +975,5 @@ color: var(--accent-color);
 }
 
 .check-link {
-    color: #4d5ae5;;
+    color: var(--footer-logo-color);
 }
