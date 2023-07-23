@@ -644,7 +644,7 @@ color: var(--accent-color);
     line-height: 1.5;
     letter-spacing: 0.02em; 
     color: var(--sectoin-bg-color);
-    max-width: 264px;
+    width: 264px;
 }
 
 /* social media */
@@ -699,6 +699,11 @@ color: var(--accent-color);
 }
 
 /*  Subscribe  */
+
+
+.subscribe-container {
+    margin-left: auto;
+}
 
 .subscribe-form {
     display: flex;
